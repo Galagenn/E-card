@@ -281,9 +281,6 @@ $(function () {
 	});
 });
 
-function toggleExpand(element) {
-	element.classList.toggle('expanded');
-}
 
 function toggleAll() {
     const buttonsWrapper = document.querySelector('.buttons-wrapper');

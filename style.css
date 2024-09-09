@@ -76,11 +76,14 @@ body.dark .main {
 }
 
 .vcard a, 
-.vcard a:link, 
-.vcard a:visited, 
 .vcard a:hover, 
 .vcard a:active {
 	color: black; /* Font color */ /* Links */
+	text-decoration: none;
+}
+
+.vcard a:hover {
+	color: grey; /* Font color */ /* Links */
 	text-decoration: none;
 }
 
